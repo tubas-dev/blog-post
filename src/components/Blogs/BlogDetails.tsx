@@ -1,5 +1,3 @@
-// src/components/BlogDetail.tsx
-
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import useFetch from '../../hooks/useFetch';
@@ -17,7 +15,7 @@ type StoryDetail = {
   by: string;
   url?: string;
   text?: string;
-  imageUrl?: string; // Placeholder property if an image URL is available
+  imageUrl?: string;
 };
 
 const BlogDetail: React.FC = () => {
